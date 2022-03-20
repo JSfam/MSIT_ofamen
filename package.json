@@ -1,5 +1,5 @@
 {
-  "name": "crud_app",
+  "name": "CRUD_Application",
   "version": "1.0.0",
   "description": "crud application with express and mongodb",
   "main": "server.js",
@@ -9,9 +9,10 @@
   },
   "keywords": [
     "crud",
-    "mongodb"
+    "mongodb",
+    "Express"
   ],
-  "author": "akshay kashyap",
+  "author": "Jaime Ofamen",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
