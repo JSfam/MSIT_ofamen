@@ -1,0 +1,54 @@
+ <!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="f_name" class="text-light">First Name</label>
+            <input type="text" name="f_name" value="" placeholder="Juan">
+        </div>
+        <div class="form-group">
+            <label for="l_name" class="text-light">Last Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="l_name" value="" placeholder="dela Cruz">
+        </div>
+        <div class="form-group">
+            <label for="age" class="text-light">Age</label>
+            <input type="text" name="age" value="" placeholder="18">
+        </div>
+        <div class="form-group">
+            <label for="relation" class="text-light">Relation to the Household</label>
+            <input type="text" name="relation" value="" placeholder="Father/Mother/Son/Daughter">
+        </div>
+        <div class="form-group">
+            <label for="tribe" class="text-light">Tribe</label>
+            <input type="text" name="tribe" value="" placeholder="Bagobo">
+        </div>     
+        <div class="form-group">
+            <label for="gender" class="text-light">Gender</label>
+            <div class="radio inline">
+                <input type="radio" id="radio-2" name="gender" value="Male" >
+                <label for="radio-2" class="radio-label">Male</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-3" name="gender" value="Female" >
+                <label for="radio-3" class="radio-label">Female</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="gender" class="text-light">Status</label>
+            <div class="radio inline">
+                <input type="radio" id="radio-4" name="status" value="Active" >
+                <label for="radio-4" class="radio-label">Active</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-5" name="status" value="Inactive" >
+                <label for="radio-5" class="radio-label">Inactive</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
