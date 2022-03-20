@@ -13,7 +13,7 @@
         </div>
         <div class="form-title text-center">
             <h2 class="text-dark">Update User</h2>
-            <span class="text-light">Use the below form to Update an account</span>
+            <span class="text-light">Use the below form to Update data</span>
         </div>
 
         <!-- add user form -->
@@ -22,7 +22,7 @@
     <div class="new_user">
         <div class="form-group">
             <label for="f_name" class="text-light">First Name</label>
-            <input type="text" name="name" value="<%= user.f_name %>" placeholder="Juan">
+            <input type="text" name="f_name" value="<%= user.f_name %>" placeholder="Juan">
         </div>
 
         <div class="form-group">
@@ -37,13 +37,13 @@
         </div>
 
         <div class="form-group">
-            <label for="relation" class="text-light">Relation to the Household</label>
-            <input type="text" name="relation" value="<%= user.relation %>" placeholder="Father/Mother/Son/Daughter">
+            <label for="relation" class="text-light">Admited</label>
+            <input type="text" name="relation" value="<%= user.relation %>" placeholder="Current Agency">
         </div>
 
         <div class="form-group">
-            <label for="tribe" class="text-light">Tribe</label>
-            <input type="text" name="tribe" value="<%= user.tribe %>" placeholder="Bagobo">
+            <label for="tribe" class="text-light">Referal</label>
+            <input type="text" name="tribe" value="<%= user.tribe %>" placeholder="Previous Agency /Referal Person">
         </div>
     
         <div class="form-group">

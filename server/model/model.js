@@ -10,12 +10,12 @@ var schema = new mongoose.Schema({
         required: true
     },
     age : Number,
-    relation : String,
-    tribe : String,
+    dateadmited: Date ,
+    referal : String,
     gender : String,
     status : String
 })
 
-const Userdb = mongoose.model('DerectoryList', schema);
+const Userdb = mongoose.model('derectorylists', schema);
 
 module.exports = Userdb;

@@ -13,8 +13,8 @@ exports.create = (req,res)=>{
         f_name : req.body.f_name,
         l_name : req.body.l_name,
         age : req.body.age,
-        relation : req.body.relation,
-        tribe : req.body.tribe,
+        dateadmited : req.body.dateadmited,
+        referal : req.body.referal,
         gender: req.body.gender,
         status : req.body.status
     })
