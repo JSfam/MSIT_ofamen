@@ -16,6 +16,6 @@ var schema = new mongoose.Schema({
     status : String
 })
 
-const Userdb = mongoose.model('lgu_profile', schema);
+const Userdb = mongoose.model('DerectoryList', schema);
 
 module.exports = Userdb;
