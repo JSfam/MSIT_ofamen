@@ -16,6 +16,6 @@ var schema = new mongoose.Schema({
     status : String
 })
 
-const Userdb = mongoose.model('testlist', schema);
+const Userdb = mongoose.model('directory_list', schema);
 
 module.exports = Userdb;
